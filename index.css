@@ -1,0 +1,52 @@
+/* navbar related */
+.navbar{
+    margin-bottom:0px;
+    padding:0 50px;
+}
+.navbar-brand{
+    color:white !important;
+    background-color: aquamarine;
+    font-size: 28px;
+    font-weight:700;
+    padding:28px;
+}
+#navbarNavAltMarkup{
+    justify-content:flex-end;
+}
+hr{
+    background-color: black;
+    margin-top:0px;
+}
+/* end of nav bar related */
+
+/* index about me article  */
+#about_me_box{
+    border: 1px solid rgb(151, 151, 151);
+    margin: 40px 0 0 50px;
+    padding:35px 30px 30px 30px;
+}
+#about_me_box h2{
+    color: aquamarine;
+    margin-bottom:25px;
+}
+#about_me_box div{
+margin-top: 30px;
+}
+#about_me_box img{
+    float:left;
+    margin-right: 10px;
+    margin-top:7px;
+}
+#about_me_box p{
+    display:inline-block;
+}
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    padding:25px 0;
+    background-color: gray;
+    text-align: center;
+    border-top: 3px solid turquoise;
+}
