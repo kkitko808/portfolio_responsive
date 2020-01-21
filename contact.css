@@ -27,9 +27,9 @@ hr{
 /* index about me article  */
 #about_me_box{
     border: 1px solid rgb(151, 151, 151);
+    background-color:white;
     margin: 40px 0 0 50px;
     padding:35px 30px 30px 30px;
-    background-color:white;
 }
 #about_me_box h2{
     color: aquamarine;
@@ -50,8 +50,30 @@ footer{
     position: absolute;
     bottom:0px;
     width:100%;
-    padding:20px 0;
+    padding:25px 0;
     background-color: gray;
     text-align: center;
     border-top: 3px solid turquoise;
+}
+
+/* additional to contact */
+/* sumbit button */
+.btn{
+    border-radius: 0px;
+    background-color: aquamarine;
+    border-color:aquamarine;
+    padding: 10px 30px;
+    font-size: 22px;
+    margin-top: 15px;
+}
+/* Name, Email, Message text larger */
+.form-group label{
+    font-size: 22px;
+}
+.form-group{
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+#exampleFormControlTextarea1{
+    min-height:250px;
 }
