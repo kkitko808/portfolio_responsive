@@ -3,6 +3,10 @@ body{
     height:1200px;
     background-color:rgb(219, 219, 219);
 }
+.about-me{
+min-height: 200px;
+font-size:18px;
+}
 /* navbar related */
 .navbar{
     margin-bottom:0px;
@@ -54,4 +58,7 @@ footer{
     background-color: gray;
     text-align: center;
     border-top: 3px solid turquoise;
+}
+i{
+    margin-left:20px;
 }
